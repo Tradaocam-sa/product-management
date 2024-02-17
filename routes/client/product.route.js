@@ -19,5 +19,8 @@ router.get("/", controller.index);
 // router.get("/create", (req, res) => {
 
 // });
+router.get("/:slug", controller.detail);
+
+
 
 module.exports = router;
