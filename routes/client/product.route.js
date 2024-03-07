@@ -19,7 +19,9 @@ router.get("/", controller.index);
 // router.get("/create", (req, res) => {
 
 // });
-router.get("/:slug", controller.detail);
+router.get("/:slugCategory", controller.category);
+
+router.get("/detail/:slugProduct", controller.detail);
 
 
 
